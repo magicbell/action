@@ -1,0 +1,33 @@
+name: 'MagicBell: notify'
+description: 'Send a notification'
+author: 'MagicBell'
+
+runs:
+  using: 'node16'
+  main: '../dist/notify.js'
+
+inputs:
+  api-key:
+    description: 'MagicBell API key'
+    required: true
+  api-secret:
+    description: 'MagicBell API secret'
+    required: true
+  title:
+    description: 'Notification title'
+    required: true
+  content:
+    description: 'Notification content'
+  recipients:
+    description: 'Comma-separated list of recipient email addresses'
+    required: true
+  category:
+    description: 'Notification category'
+  topic:
+    description: 'Notification topic'
+  action-url:
+    description: 'Notification action URL'
+  custom-attributes:
+    description: 'JSON string of custom attributes'
+  overrides:
+    description: 'JSON string of delivery overrides'
