@@ -1,4 +1,4 @@
-# Sent notifications from your GitHub workflows
+# Send notifications from your GitHub workflows
 
 Use this GitHub action to inform yourself or your team about activity in your repository. Think of use cases like:
 
