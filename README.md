@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send Notification
-        uses: magicbell-io/action/notify@v1
+        uses: magicbell/action/notify@v1
         with:
           api-key: ${{ secrets.MAGICBELL_API_KEY }}
           api-secret: ${{ secrets.MAGICBELL_API_SECRET }} 
@@ -88,7 +88,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send Notification
-        uses: magicbell-io/action/notify@v1
+        uses: magicbell/action/notify@v1
         with: # api-key, api-secret, recipients and title are required.
           api-key: ${{ secrets.MAGICBELL_API_KEY }}
           api-secret: ${{ secrets.MAGICBELL_API_SECRET }}
@@ -108,7 +108,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send Notification
-        uses: magicbell-io/action/notify@v1
+        uses: magicbell/action/notify@v1
         with: # api-key, api-secret, recipients and title are required.
           api-key: ${{ secrets.MAGICBELL_API_KEY }}
           api-secret: ${{ secrets.MAGICBELL_API_SECRET }} 
@@ -133,7 +133,7 @@ jobs:
 
     steps:
       - name: Send Notification
-        uses: magicbell-io/action/notify@v1
+        uses: magicbell/action/notify@v1
         with:
           api-key: ${{ secrets.MAGICBELL_API_KEY }}
           api-secret: ${{ secrets.MAGICBELL_API_SECRET }}
@@ -157,7 +157,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send Notification
-        uses: magicbell-io/action/notify@main
+        uses: magicbell/action/notify@main
         with:
           api-key: ${{ secrets.MAGICBELL_API_KEY }}
           api-secret: ${{ secrets.MAGICBELL_API_SECRET }}
@@ -184,7 +184,7 @@ jobs:
     
     steps:
       - name: Send Notification
-        uses: magicbell-io/action/notify@v1
+        uses: magicbell/action/notify@v1
         with:
           api-key: ${{ secrets.MAGICBELL_API_KEY }}
           api-secret: ${{ secrets.MAGICBELL_API_SECRET }}
